@@ -63,14 +63,12 @@ color : #fff;
   width: 100%;
 }
 .productos table .principal td{
-  background-color: light-grey;
   font-size: 2em;
 }
 .productos table tr td{
   font-size: 1.2em;
   margin: 30px;
 }
-
 
 .carrito_compra {
   border-style: solid;
@@ -100,6 +98,28 @@ color : #fff;
   float: none;
   border-style: solid;
   border-radius: 10px;
+}
+
+.enlace_boton {    font-family: verdana, arial, sans-serif;
+   font-size: 10pt;
+   font-weight: bold;
+   padding: 4px;
+   background-color: #ffffcc;
+   color: #666666;
+   text-decoration: none;
+}
+.enlace_boton:link,
+.enlace_boton:visited {
+   border-top: 1px solid #cccccc;
+   border-bottom: 2px solid #666666;
+   border-left: 1px solid #cccccc;
+   border-right: 2px solid #666666;
+}
+.enlace_boton:hover {
+    border-bottom: 1px solid #cccccc;
+   border-top: 2px solid #666666;
+   border-right: 1px solid #cccccc;
+   border-left: 2px solid #666666;
 }
 
 
